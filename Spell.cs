@@ -8,6 +8,6 @@ namespace DungeonsAndDrugonsCharacterSheetGenerator
     class Spell
     {
         // need to think 
-        public int Slot;                        // Skill's slot level.
+        public int Slot { get; set; }                        // Skill's slot level.
     }
 }

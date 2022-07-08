@@ -7,9 +7,9 @@ namespace DungeonsAndDrugonsCharacterSheetGenerator
 {
     class Item
     {
-        public string Name;                     // Item's name.
-        public string Description;              // Item's description.
-        public string Weight;                   // Item's weight in kgs.
-        public string Cost;                     // Item's cost in gold coins.
+        public string Name { get; set; }                     // Item's name.
+        public string Description { get; set; }              // Item's description.
+        public string Weight { get; set; }                   // Item's weight in kgs.
+        public string Cost { get; set; }                     // Item's cost in gold coins.
     }
 }

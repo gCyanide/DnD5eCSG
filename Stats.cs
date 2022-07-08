@@ -7,11 +7,11 @@ namespace DungeonsAndDrugonsCharacterSheetGenerator
 {
     class Stats
     {
-        public int Strength;                    // Character's strength.
-        public int Dexterity;                   // Character's dexterity.
-        public int Constitution;                // Character's constitutions.
-        public int Intelligence;                // Character's intelligence.
-        public int Wisdom;                      // Character's wisdom.
-        public int Charisma;                    // Character's charisma.
+        public int Strength { get; set; }                    // Character's strength.
+        public int Dexterity { get; set; }                   // Character's dexterity.
+        public int Constitution { get; set; }                // Character's constitutions.
+        public int Intelligence { get; set; }                // Character's intelligence.
+        public int Wisdom { get; set; }                      // Character's wisdom.
+        public int Charisma { get; set; }                    // Character's charisma.
     }
 }
